@@ -23,6 +23,9 @@ body {
   -moz-transform: translate(-100%, -50%);
   transition: 0.2s;
 }
+.show {
+  display: block !important;
+}
 
 .question-container {
   position: absolute;
