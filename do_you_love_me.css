@@ -48,8 +48,11 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
+  position: relative;
 }
+
 .btn {
   position: absolute;
   border: none;
@@ -71,12 +74,10 @@ body {
   text-shadow: 1px 1px 5px rgba(255, 182, 193, 0.8);
 }
 
-.yes-btn {
-  right: 54%;
+.yes-btn, .no-btn {
+  position: static; /* Loại bỏ căn chỉnh bên phải/trái */
 }
-.no-btn {
-  left: 54%;
-}
+
 
 .result-container {
   display: none;
