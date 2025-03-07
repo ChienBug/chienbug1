@@ -13,10 +13,11 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-.video-wrapper video {
-    width: 90%;
-    max-width: 400px;
-    border-radius: 10px;
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .container {
   position: absolute;
