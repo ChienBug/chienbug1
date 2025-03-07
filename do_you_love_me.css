@@ -85,7 +85,6 @@ body {
 
 .result-container {
   display: none;
-  align-items: center;
   position: absolute;
   top: 40%;
   left: 50%;
