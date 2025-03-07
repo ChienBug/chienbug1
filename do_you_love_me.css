@@ -12,10 +12,7 @@ body {
   background-color: #ffe6e9;
   font-family: "Quicksand", sans-serif;
 }
-.gif-result {
-  display: block;
-  margin: 0 auto;
-}
+
 
 .container {
   position: absolute;
@@ -94,8 +91,8 @@ body {
   transition: 0.2s;
 }
 .gif-result {
-  border-radius: 10px;
-  margin-bottom: 2rem;
+  display: block;
+  margin: 0 auto;
 }
 .result-container h2 {
   font-size: 3.2rem;
