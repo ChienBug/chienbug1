@@ -12,6 +12,11 @@ body {
   background-color: #ffe6e9;
   font-family: "Quicksand", sans-serif;
 }
+.gif-result {
+  display: block;
+  margin: 0 auto;
+}
+
 .container {
   position: absolute;
   top: 50%;
