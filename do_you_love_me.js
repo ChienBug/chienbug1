@@ -1,5 +1,5 @@
 const questionContainer = document.querySelector(".question-container");
-const resultContainer = document.querySelector(".result-container.yes");
+const resultContainer = document.querySelector(".result-container");
 const gifResult = document.querySelector(".gif-result");
 const heartLoader = document.querySelector(".cssload-main");
 const yesBtn = document.querySelector(".js-yes-btn");
@@ -22,7 +22,7 @@ yesBtn.addEventListener("click", () => {
 
   const timeoutId = setTimeout(() => {
     heartLoader.style.display = "none";
-    resultContainer.style.display = "inherit";
-    gifResult.play();
+    resultContainer.style.display = "block";
+    gifResult?.play();
   }, 3000);
 });
