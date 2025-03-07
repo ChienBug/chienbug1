@@ -92,8 +92,10 @@ body {
   transition: 0.2s;
 }
 .gif-result {
- border-radius: 10px;
+  display: block;
+  border-radius: 10px;
   margin-bottom: 2rem;
+  margin: 0 auto;
 }
 .result-container h2 {
   font-size: 3.2rem;
