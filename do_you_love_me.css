@@ -79,8 +79,7 @@ body {
 }
 
 .result-container {
-  display: flex;
-  align-items: center;
+  display: none;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -92,10 +91,8 @@ body {
   transition: 0.2s;
 }
 .gif-result {
-  display: block;
   border-radius: 10px;
   margin-bottom: 2rem;
-  margin: 0 auto;
 }
 .result-container h2 {
   font-size: 3.2rem;
