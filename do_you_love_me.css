@@ -13,7 +13,11 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-
+.video-wrapper video {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+}
 .container {
   position: absolute;
   top: 50%;
